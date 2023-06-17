@@ -27,6 +27,7 @@ jobs:
           github_token: ${{ secrets.github_token }}
           reporter: github-check
           level: warning
+          checkstyle_config: sun_checks.xml
 
   build:
     runs-on: ubuntu-latest
