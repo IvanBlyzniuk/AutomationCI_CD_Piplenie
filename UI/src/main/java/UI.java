@@ -15,7 +15,7 @@ public class UI {
         String filename = scanner.nextLine();
         FileWriter fileWriter = new FileWriter();
         try{
-            fileWriter.WriteToFile(filename, wordCounter.getIndex(), wordCounter.getFiles());
+            fileWriter.writeToFile(filename, wordCounter.getIndex(), wordCounter.getFiles());
         }catch (IOException e){
             System.out.println("An error occurred while trying to write data to file!");
         }

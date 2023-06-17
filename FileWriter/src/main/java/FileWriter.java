@@ -7,7 +7,8 @@ import java.util.Map;
 
 public class FileWriter {
 
-    public void WriteToFile(String fileName, Map<String, ArrayList<WordCounter.FileData>> index, ArrayList<File> files) throws IOException {
+    public void writeToFile(String fileName, Map<String, ArrayList<WordCounter.FileData>> index, ArrayList<File> files)
+            throws IOException {
         FileOutputStream fileOutputStream = new FileOutputStream(fileName);
         PrintWriter printWriter = new PrintWriter(fileOutputStream);
         for (String word : index.keySet()) {
