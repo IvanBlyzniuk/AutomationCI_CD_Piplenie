@@ -32,7 +32,7 @@ publishing {
     }
 
     publications{
-        maven(MavenPublication) {
+        myPublication(MavenPublication) {
             from components.java
         }
     }
