@@ -7,7 +7,7 @@ import java.util.TreeMap;
 
 public class WordCounter {
 
-    public static final boolean TESTS_PASS = true;
+    public static final boolean TESTS_PASS = false;
 
     private Map<String, ArrayList<FileData>> index;
     private ArrayList<File> files;
